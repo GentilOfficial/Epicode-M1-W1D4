@@ -1,0 +1,181 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9rem;
+    background: #e9edee;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0.5em 1em;
+}
+
+.bg-primary {
+    background: #222f3f;
+}
+
+.bg-secondary {
+    background: #364759;
+}
+
+.logo {
+    width: 7em;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+    margin-right: 1em;
+}
+
+li a {
+    color: #ebefee;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+section {
+    margin: 2em 0;
+}
+
+.description {
+    margin: 0;
+    padding: 0.5em;
+    color: #eaecec;
+    background: #f56600;
+    text-align: center;
+}
+
+section.title {
+    position: relative;
+    background: url("/assets/images/bg-image.png");
+    color: #e6eeed;
+    height: 12em;
+}
+
+section.title div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    margin: 0;
+}
+
+h2  {
+    display: inline;
+    font-size: 1.15em;
+    font-weight: normal;
+    margin: 0 0.75em;
+}
+
+a {
+    color: #027589;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.9em;
+}
+
+.bg-white {
+    background: #ffffff;
+}
+
+.cards-section {
+    padding: 0.75em 1em;
+}
+
+.cards-grid {
+    width: 100%;
+    text-align: center;
+}
+
+.card {
+    width: 18em;
+    height: 23em;
+    margin: 0.5em;
+    object-fit: cover;
+    border-radius: 1em;
+    box-shadow: 0 0.5em 0.75em rgba(0, 0, 0, 0.3);
+}
+
+.cards-group {
+    width: 20%;
+    display: inline-block;
+    padding: 1em;
+    margin: 0 auto;
+}
+
+.cards-group-me {
+    margin-right: 1.9em;
+}
+
+h3 {
+    font-size: 1.25em;
+    margin-top: 0;
+}
+
+.square-card {
+    width: 45%;
+    margin-right: 0.5em;
+    display: inline-block;
+    position: relative;
+}
+
+.square-card img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+}
+
+img.badge {
+    position: absolute;
+    width: 2.5em;
+    bottom: 0;
+    right: -10px;
+}
+
+.cards-group p {
+    font-size: 0.8em;
+    text-align: start;
+    margin: 0;
+}
+
+.group-row {
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+
+.text-center {
+    text-align: center;
+}
+
+.full-image {
+    width: 100%;
+}
+
+footer {
+    text-align: center;
+    font-size: 1.25rem;
+}
+
+footer .logo {
+    padding: 1.5em 0;
+}
+
+button {
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    text-decoration: underline;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 0.75em;
+}
